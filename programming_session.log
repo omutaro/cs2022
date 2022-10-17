@@ -962,3 +962,49 @@ Ok, one module loaded.
 [?1h=>>> :q[K[K:q
 [?1l>Leaving GHCi.
 ]0;sayuri@LAPTOP-8BT9N30J: ~/cs2022[01;32msayuri@LAPTOP-8BT9N30J[00m:[01;34m~/cs2022[00m$ git add .
+]0;sayuri@LAPTOP-8BT9N30J: ~/cs2022[01;32msayuri@LAPTOP-8BT9N30J[00m:[01;34m~/cs2022[00m$ git commit -m "1-3[K[K-[K[Kadd upto stdin 1-3"
+[main a3ac1c5] add upto stdin 1-3
+ 3 files changed, 648 insertions(+), 5 deletions(-)
+]0;sayuri@LAPTOP-8BT9N30J: ~/cs2022[01;32msayuri@LAPTOP-8BT9N30J[00m:[01;34m~/cs2022[00m$ git push
+Enumerating objects: 13, done.
+Counting objects:   7% (1/13)Counting objects:  15% (2/13)Counting objects:  23% (3/13)Counting objects:  30% (4/13)Counting objects:  38% (5/13)Counting objects:  46% (6/13)Counting objects:  53% (7/13)Counting objects:  61% (8/13)Counting objects:  69% (9/13)Counting objects:  76% (10/13)Counting objects:  84% (11/13)Counting objects:  92% (12/13)Counting objects: 100% (13/13)Counting objects: 100% (13/13), done.
+Delta compression using up to 8 threads
+Compressing objects:  16% (1/6)Compressing objects:  33% (2/6)Compressing objects:  50% (3/6)Compressing objects:  66% (4/6)Compressing objects:  83% (5/6)Compressing objects: 100% (6/6)Compressing objects: 100% (6/6), done.
+Writing objects:  14% (1/7)Writing objects:  28% (2/7)Writing objects:  42% (3/7)Writing objects:  57% (4/7)Writing objects:  71% (5/7)Writing objects:  85% (6/7)Writing objects: 100% (7/7)Writing objects: 100% (7/7), 4.02 KiB | 588.00 KiB/s, done.
+Total 7 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas:  33% (1/3)[Kremote: Resolving deltas:  66% (2/3)[Kremote: Resolving deltas: 100% (3/3)[Kremote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
+To github.com:omutaro/cs2022
+   da0e454..a3ac1c5  main -> main
+]0;sayuri@LAPTOP-8BT9N30J: ~/cs2022[01;32msayuri@LAPTOP-8BT9N30J[00m:[01;34m~/cs2022[00m$ Script started on 2022-10-17 10:54:32+09:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="110" LINES="14"]
+]0;sayuri@LAPTOP-8BT9N30J: ~/cs2022[01;32msayuri@LAPTOP-8BT9N30J[00m:[01;34m~/cs2022[00m$ stac build
+
+Command 'stac' not found, did you mean:
+
+  command 'tac' from deb coreutils (8.30-3ubuntu2)
+  command 'stack' from deb haskell-stack (1.9.3.1-1)
+  command 'stat' from deb coreutils (8.30-3ubuntu2)
+  command 'siac' from deb sia (1.3.0-1.1)
+  command 'stax' from deb stax (1.37-1build1)
+  command 'sac' from deb sac (1.9b5-3build1)
+  command 'sta' from deb opensta (0~20191111gitc018cb2+dfsg-1build1)
+  command 'stap' from deb systemtap (4.2-3ubuntu0.1)
+
+Try: sudo apt install <deb name>
+
+]0;sayuri@LAPTOP-8BT9N30J: ~/cs2022[01;32msayuri@LAPTOP-8BT9N30J[00m:[01;34m~/cs2022[00m$ stac build
+
+Command 'stac' not found, did you mean:
+
+  command 'tac' from deb coreutils (8.30-3ubuntu2)
+  command 'siac' from deb sia (1.3.0-1.1)
+  command 'stat' from deb coreutils (8.30-3ubuntu2)
+  command 'stack' from deb haskell-stack (1.9.3.1-1)
+  command 'stap' from deb systemtap (4.2-3ubuntu0.1)
+  command 'sta' from deb opensta (0~20191111gitc018cb2+dfsg-1build1)
+  command 'sac' from deb sac (1.9b5-3build1)
+  command 'stax' from deb stax (1.37-1build1)
+
+Try: sudo apt install <deb name>
+
+]0;sayuri@LAPTOP-8BT9N30J: ~/cs2022[01;32msayuri@LAPTOP-8BT9N30J[00m:[01;34m~/cs2022[00m$ ^C
+]0;sayuri@LAPTOP-8BT9N30J: ~/cs2022[01;32msayuri@LAPTOP-8BT9N30J[00m:[01;34m~/cs2022[00m$ git add .
